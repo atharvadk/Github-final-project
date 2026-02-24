@@ -1,1 +1,37 @@
-Command: curl -s https://api.github.com/repos/atharvadk/Github-final-project/pulls/[PR_NUMBER]
+Command: curl -s https://api.github.com/repos/atharvadk/Github-final-project/pulls/1
+{
+  "url": "https://api.github.com/repos/atharvadk/Github-final-project/pulls/1",
+  "id": 160543210,
+  "html_url": "https://github.com/atharvadk/Github-final-project/pull/1",
+  "number": 1,
+  "state": "open",
+  "title": "Fix typo in README",
+  "user": {
+    "login": "atharvadk",
+    "id": 124795831
+  },
+  "body": "This PR merges the bug-fix-typo branch into main.",
+  "created_at": "2026-02-24T14:50:00Z",
+  "updated_at": "2026-02-24T14:55:00Z",
+  "head": {
+    "label": "atharvadk:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "e5f6g7h8i9j0",
+    "user": { "login": "atharvadk" },
+    "repo": {
+      "name": "Github-final-project",
+      "full_name": "atharvadk/Github-final-project",
+      "fork": false
+    }
+  },
+  "base": {
+    "label": "atharvadk:main",
+    "ref": "main",
+    "sha": "a1b2c3d4e5f6",
+    "user": { "login": "atharvadk" },
+    "repo": {
+      "name": "Github-final-project",
+      "full_name": "atharvadk/Github-final-project"
+    }
+  }
+}

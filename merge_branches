@@ -1,0 +1,9 @@
+atharva@ubuntu:~/Github-final-project$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+atharva@ubuntu:~/Github-final-project$ git merge bug-fix-typo
+Updating 2f946b4..d577baa
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
