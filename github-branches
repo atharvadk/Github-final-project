@@ -1,0 +1,5 @@
+atharva@ubuntu:~/Github-final-project$ git branch -a
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
